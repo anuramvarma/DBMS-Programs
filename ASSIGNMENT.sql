@@ -14,26 +14,24 @@ insert into student values(550, 'RAJU', 19, 'CSE', 65);
 
 insert into student values(1240, 'ANIL', 18, 'IT', 68.5);
 
-___________________________________________________________
+_______________________________________________________________________________________
 
-1. INSERT INTO student VALUES (555,'REDDY',18,'CSE',60.5);
+ INSERT INTO student VALUES (555,'REDDY',18,'CSE',60.5);
 
-2. DELETE FROM student WHERE rollno=550;
+ DELETE FROM student WHERE rollno=550;
 
-3. UPDATE student SET perc=70 WHERE rollno=420;
+ UPDATE student SET perc=70 WHERE rollno=420;
 
-4. SELECT name FROM student WHERE bname='CSE' and perc>=90;
+ SELECT name FROM student WHERE bname='CSE' and perc>=90;
 
-5. SELECT *FROM student WHERE age between 18 and 20;
+ SELECT *FROM student WHERE age between 18 and 20;
 
-6. ALTER TABLE student ADD email varchar(25);
+ ALTER TABLE student ADD email varchar(25);
 
-7. UPDATE student SET email='Kumar@gmail.com' WHERE
+ UPDATE student SET email='Kumar@gmail.com' WHERE rollno=304;
 
-rollno=304;
+ SELECT *FROM student;
 
-SELECT *FROM student;
+ ALTER TABLE student DROP COLUMN email;
 
-8. ALTER TABLE student DROP COLUMN email;
-
-SELECT *FROM student;
+ SELECT *FROM student;
