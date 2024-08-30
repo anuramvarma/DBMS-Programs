@@ -1,6 +1,6 @@
 CREATE TABLE Sailors(sid number(2) primary key,sname varchar(10),rating number(2),age number(5,2));
 CREATE TABLE Reserves(sid number(2), bid number(3), Day date, PRIMARY KEY(sid,bid));
-CREATE TABLE Boats(bid number(3) primary key,bname varchar(10),color varchar(6));
+CREATE TABLE Boats(bid number(3) primary key,bname varchar(10),colour varchar(6));
 
 INSERT INTO Sailors VALUES(22,'Dustin',7,45.0);
 INSERT INTO Sailors VALUES(29,'Brutus',1,33.0);
