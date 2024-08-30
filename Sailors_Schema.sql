@@ -28,6 +28,9 @@ INSERT INTO Reserves VALUES(31,104,to_date('17-12-1998','dd-mm-yyyy'));
 INSERT INTO Reserves VALUES(64,101,to_date('09-05-1998','dd-mm-yyyy'));
 INSERT INTO Reserves VALUES(64,102,to_date('09-05-1998','dd-mm-yyyy'));
 INSERT INTO Reserves VALUES(74,103,to_date('09-08-1998','dd-mm-yyyy'));
+
 SELECT *from Sailors;
+
 SELECT *from Boats;
+
 SELECT *from Reserves;
